@@ -1,8 +1,10 @@
-package conditions;
+package dataStructures;
 
 public class ArrayPractice {
 
     public static void main(String[] args) {
+        ArrayPractice arrayPractice = new ArrayPractice();
+
         //Array --[]
         String[] name = {"Mr x", "Mr Y", "Mr Z", "Mr A", "Mr B"};
 
@@ -28,8 +30,21 @@ public class ArrayPractice {
                 System.out.println(s);
             }
 
+            System.out.println(" ************New types if Array ********");
+        }
+            int [] numbers = new int[3];
+            numbers [0]=11;
+            numbers [1]=12;
+            numbers [2]=13;
+
+            System.out.println(numbers.length);
+            System.out.println(numbers[2]);
+            int [] newArray = numbers.clone();
+            System.out.println(newArray.length);
+            System.out.println(newArray[2]);
+
+
 
         }
     }
-}
 

@@ -10,6 +10,8 @@ public class Week {
 
     }
     public void whatToDo(){
+
+
         switch (days){
             case Saturday:
                 System.out.println("Today is saturday & i'm not working today");
