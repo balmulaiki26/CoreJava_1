@@ -16,6 +16,7 @@ public class ArrayPractice {
 
         for (int a = 0; a < 3; a++) {
             System.out.println(name[a]);
+
             int[] numbers = {12, 11, 111, 223, 322};
             Object[] objectArray = {"Mr B", 1};
 
